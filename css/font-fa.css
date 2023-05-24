@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'IRANSansWeb';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/5c53f1a72f61b5b51e2ea79a22ebc38b.eot');
+    src: url('fonts/5c53f1a72f61b5b51e2ea79a22ebc38b.eot?#iefix')
+    format('embedded-opentype'), /* IE6-8 */
+    url('fonts/5c53f1a72f61b5b51e2ea79a22ebc38b.woff2')
+    format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/5c53f1a72f61b5b51e2ea79a22ebc38b.woff')
+    format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/5c53f1a72f61b5b51e2ea79a22ebc38b.ttf')
+    format('truetype');
+}
+html body {
+    font-family: IRANSansWeb;
+}
+.text-muted , .fea{
+    font-size: 14px;
+}

@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>socialogy</title>
+    <link rel="shortcut icon" type="image/png" href="img/logowhite2.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/socialogy.min.css">
+    <link rel="stylesheet" href="css/socialogy-sliders.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<!--PreLoader-->
+<div class="loader">
+    <div class="loader-inner">
+        <div class="circle"></div>
+    </div>
+</div>
+<!--PreLoader Ends-->
+<div class="parent">
+    <!-- navbar lg -->
+    <div class="top-header-area bg-white sticky-top d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <div class="main-menu-wrap">
+                        <!--                     logo -->
+                        <a class="navbar-brand" href="index.html">
+                            <img class="site-logo" src="img/logowhite.webp" alt="">
+                        </a>
+                        <!--                     logo -->
+                        <!-- menu start -->
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="current-list-item"><a class="text-decoration-none" href="index.html">Home</a>
+                                </li>
+                                <li><a class="text-decoration-none" href="#Features">features</a></li>
+                                <li><a class="text-decoration-none" href="#Plans">plans</a></li>
+                                <li><a class="text-decoration-none" href="#footer">contact us</a></li>
+                                <li><a class="text-decoration-none" href="#">language</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a class="d-flex flex-row align-items-center justify-content-between text-decoration-none"
+                                               href="index.html">
+                                                <span>En</span>
+                                                <img src="img/englandflag.webp" class="flag-img h-50">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex flex-row align-items-center justify-content-between text-decoration-none"
+                                               href="socialogy-rtl.html">
+                                                <span>Fa</span>
+                                                <img src="img/iranflag.webp" class="flag-img h-50">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                </li>
+                                <li>
+                                    <div class="header-icons">
+                                        <a class="text-decoration-none btn btn-sm btn-primary text-light rounded-end px-4 py-2 mt-1">dashboard</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end lg navbar -->
+    <!-- sm navbar-->
+    <div class="d-lg-none">
+        <nav class="fixed-top main-navbar navbar nav-fill border-0 nav-tabs navbar-light navbar-expand-lg bg-white p-1">
+            <div class="container">
+                <!--    navbar brand    -->
+                <a href="#" class="main-navbar-brand navbar-brand text-light badge ">
+                    <img class="site-logo" src="img/logowhite.webp" alt="">
+                </a>
+                <!--    end navbar brand    -->
+                <!--    navbar button    -->
+                <div class=" menu-icon d-block d-lg-none  ">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <!--    end navbar button-->
+                <!--    navbar items     -->
+                <!--sm navbar-->
+                <div class="navigation-menu-">
+                    <a class="text-decoration-none" href="#">
+                        <div class="nav-item-1-sm dropdown-toggle-split d-flex flex-column text-center">
+                            <a class="text-decoration-none color-blue fw-bold " href="index.html">
+                                Home
+                            </a>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none text-center">
+                        <div class="nav-item-2-sm dropdown-toggle-split d-flex flex-column text-center">
+                            <a class="text-decoration-none text-dark" href="#Features">
+                                features
+                            </a>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none text-center">
+                        <div class="nav-item-2-sm dropdown-toggle-split d-flex flex-column text-center">
+                            <a class="text-decoration-none text-dark" href="#Plans">
+                                plans
+                            </a>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none text-center">
+                        <div class="nav-item-2-sm dropdown-toggle-split d-flex flex-column text-center">
+                            <a href="#footer" class="text-decoration-none text-dark">
+                                contact us
+                            </a>
+                        </div>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <div class="nav-item-3-sm dropdown-toggle-split d-flex flex-column text-center">
+                            <a class="text-decoration-none text-dark">
+                                Language
+                            </a>
+                            <div class="my-dropdown-menu-sm col-12 d-flex flex-column bg-light-MyCss">
+                                <div class="my-dropdown-item menu-3-sm">
+                                    <a href="index.html"
+                                       class="d-flex flex-row align-items-center justify-content-center gap-5 text-decoration-none text-dark">
+                                        <span class="">En</span>
+                                        <img src="img/englandflag.webp" class="flag-img">
+                                    </a>
+                                </div>
+                                <div class="my-dropdown-item menu-3-sm">
+                                    <a href="socialogy-rtl.html"
+                                       class="d-flex flex-row align-items-center justify-content-center gap-5 text-decoration-none text-dark">
+                                        <span class="">Fa</span>
+                                        <img src="img/iranflag.webp" class="flag-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--end sm navbar-->
+    <!--end navbar-->
+    <!--header slider-->
+    <div class="main-slider">
+        <div class="slide-parent" id="description-slider">
+            <!--first slide(instagram)-->
+            <div class="slide">
+                <div class="slider-left-bottom-img">
+                    <div class="d-flex flex-row justify-content-end align-items-end">
+                        <img draggable="false" src="3D-logo/like.webp" class="w-50">
+                    </div>
+                </div>
+                <div class="slider-center-text px-5 pt-5">
+                    <div class="slide-center-text">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-center font-slider-h"> Socialogy
+                                <div class="slider-animate-text-inner-div d-inline-block"><span class="animate-text color-insta"> instagram</span></div>
+                                smart
+                                management</h3>
+                            <p class="text-center text-justify mt-4 font-slider-p">
+                                Socialogy is an integrated platform for simultaneous management of social networks and
+                                content collection and content republishing.
+                            </p>
+                            <!--slide buttons-->
+                            <div class="d-flex flex-row justify-content-around gap-2">
+                                <a class="text-center btn btn-primary col-9 col-sm-11 col-md-12">
+                                    Sign in
+                                </a>
+                                <a class="text-center btn btn-outline-primary col-9 col-sm-11 col-md-12">
+                                    Start Demo
+                                </a>
+                            </div>
+                            <!--end slide buttons-->
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-right-top-img">
+                    <img draggable="false" class="w-50 mt-4" src="3D-logo/Layer%2015.webp">
+                </div>
+            </div>
+            <!--end first slide(instagram)-->
+            <!--second slide(youtube)-->
+            <div class="slide">
+                <div class="slider-left-bottom-img">
+                    <div class="d-flex flex-row justify-content-end align-items-end">
+                        <img draggable="false" src="img/headphones.webp" class="w-75">
+                    </div>
+                </div>
+                <div class="slider-center-text px-5 pt-5">
+                    <div class="slide-center-text">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-center font-slider-h">
+                                Socialogy
+                                <div class="slider-animate-text-inner-div d-inline-block"><span class="animate-text text-danger"> YouTube</span></div>
+                                smart
+                                management</h3>
+                            <p class="text-center text-justify mt-4 font-slider-p">
+                                Socialogy is an integrated platform for simultaneous management of social networks and
+                                content collection and content republishing.
+                            </p>
+                            <!--slide buttons-->
+                            <div class="d-flex flex-row justify-content-around gap-2">
+                                <a class="text-center btn btn-primary col-9 col-sm-11 col-md-12">
+                                    Sign in
+                                </a>
+                                <a class="text-center btn btn-outline-primary col-9 col-sm-11 col-md-12">
+                                    Start Demo
+                                </a>
+                            </div>
+                            <!--end slide buttons-->
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-right-top-img">
+                    <img draggable="false" class="w-50 mt-4" src="3D-logo/youtube.webp">
+                </div>
+            </div>
+            <!--end second slide(youtube)-->
+            <!--third slide(telegram)-->
+            <div class="slide">
+                <div class="slider-left-bottom-img">
+                    <div class="d-flex flex-row justify-content-end align-items-end">
+                        <img draggable="false" src="img/ball.webp" class="w-75">
+                    </div>
+                </div>
+                <div class="slider-center-text px-5 pt-5">
+                    <div class="slide-center-text">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-center font-slider-h">Socialogy
+                                <div class="slider-animate-text-inner-div d-inline-block">
+                                    <span class="animate-text color-telegram"> Telegram</span>
+                                </div>
+                                smart
+                                management</h3>
+                            <p class="text-center text-justify mt-4 font-slider-p">
+                                Socialogy is an integrated platform for simultaneous management of social networks and
+                                content collection and content republishing.
+                            </p>
+                            <!--slide buttons-->
+                            <div class="d-flex flex-row justify-content-around gap-2">
+                                <a class="text-center btn btn-primary col-9 col-sm-11 col-md-12">
+                                    Sign in
+                                </a>
+                                <a class="text-center btn btn-outline-primary col-9 col-sm-11 col-md-12">
+                                    Start Demo
+                                </a>
+                            </div>
+                            <!--end slide buttons-->
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-right-top-img">
+                    <img draggable="false" class="w-50 mt-4" src="3D-logo/telegram2.webp">
+                </div>
+            </div>
+            <!--end third slide(telegram)-->
+            <!--fourth slide(aparat)-->
+            <div class="slide">
+                <div class="slider-left-bottom-img">
+                    <div class="d-flex flex-row justify-content-end align-items-end">
+                        <img draggable="false" src="img/usb.webp" class="w-50">
+                    </div>
+                </div>
+                <div class="slider-center-text px-5 pt-5">
+                    <div class="slide-center-text">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-center font-slider-h"> Socialogy
+                                <div class="slider-animate-text-inner-div d-inline-block">
+                                    <span class="animate-text color-aparat"> Aparat</span>
+                                </div>
+                                smart
+                                management</h3>
+                            <p class="text-center text-justify mt-4 font-slider-p">
+                                Socialogy is an integrated platform for simultaneous management of social networks and
+                                content collection and content republishing.
+                            </p>
+                            <!--slide buttons-->
+                            <div class="d-flex flex-row justify-content-around gap-2">
+                                <a class="text-center btn btn-primary col-9 col-sm-11 col-md-12">
+                                    Sign in
+                                </a>
+                                <a class="text-center btn btn-outline-primary col-9 col-sm-11 col-md-12">
+                                    Start Demo
+                                </a>
+                            </div>
+                            <!--end slide buttons-->
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-right-top-img">
+                    <img draggable="false" class="w-50 mt-4" src="img/03d-icon-apa.webp">
+                </div>
+            </div>
+            <!--end fourth slide(aparat)-->
+        </div>
+        <div class="slider-next-btn">
+            <div class="d-flex flex-column align-items-center">
+                <i class="font-next fa fa-angle-down color-blue"></i>
+            </div>
+        </div>
+        <div class="slider-nav-btn-section">
+            <div class="slider-parent-btn d-flex flex-column justify-content-center align-items-center gap-1">
+                <div class="slider-nav-btn"></div>
+            </div>
+        </div>
+    </div>
+    <!--    end header slider-->
+    <!--    second header slider-->
+    <div class="main-slider-2">
+        <div class="slide-parent-2">
+            <!--first slide-->
+            <div class="slide-2">
+                <div class="slider-center-text-2 px-lg-5 px-1 px-sm-2 pt-5">
+                    <div class="slide-center-text-2">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-center font-slider-h-2">Manage all social network accounts on one page</h3>
+                            <p class="text-justify  mt-2 mt-lg-4  font-slider-p-2">
+                                Socialogy platform is a powerful tool to manage and update all social network accounts
+                                in
+                                one complete dashboard. By using this platform, you can have all the features and
+                                capabilities you need in one dashboard, and in addition, you can have more features than
+                                the
+                                social networks themselves.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-center-img-2">
+                    <img class="slide-center-img-2 w-100 h-100" src="img/1.webp">
+                </div>
+            </div>
+            <!--end first slide-->
+            <!--second slide-->
+            <div class="slide-2">
+                <div class="slider-center-text-2 px-lg-5 px-1 px-sm-2 pt-5">
+                    <div class="slide-center-text-2">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-center font-slider-h-2">Manage and respond to
+                                direct messages</h3>
+                            <p class="text-justify  mt-2 mt-lg-4  font-slider-p-2">
+                                Responding to customers and audiences is one of the main reasons for building trust and
+                                increasing sales for businesses. With the ability to manage messages on the Socialology
+                                platform, you can also manage Instagram direct messages and direct messages from
+                                different
+                                accounts in other social networks, and see and respond to messages with more, faster and
+                                better features, and have happier customers and audiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-center-img-2">
+                    <img class="slide-center-img-2 w-100 h-100" src="img/task.svg">
+                </div>
+            </div>
+            <!--end second slide-->
+            <!--third slide-->
+            <div class="slide-2">
+                <div class="slider-center-text-2 px-lg-5 px-1 px-sm-2 pt-5">
+                    <div class="slide-center-text-2">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-center font-slider-h-2">Socialogy Instagram smart management</h3>
+                            <p class="text-justify mt-2 mt-lg-4 font-slider-p-2">
+                                Socialology is an integrated platform for simultaneous management of social networks and
+                                content collection and content republishing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-center-img-2">
+                    <img class="slide-center-img-2 w-100 h-100" src="img/1.webp">
+                </div>
+            </div>
+        </div>
+        <!--end third slide-->
+        <div class="slider-next-btn-2">
+            <div class="d-flex flex-column align-items-center">
+                <i class="font-next-2 fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="slider-nav-btn-section-2">
+            <div class="slider-parent-btn-2 d-flex flex-row align-items-center">
+                <div class="slider-nav-btn-2"></div>
+            </div>
+        </div>
+    </div>
+    <!--end second slider-->
+    <!--features section-->
+    <div class="header-shapes-2 d-flex flex-row justify-content-center">
+        <div class="header-left-shape-2 col-2 col-sm-3 col-md-4"></div>
+        <div class="header-center-shape-2 d-flex flex-column align-items-center pb-5" id="Features">
+            <h3 class="plan-header- text-center"><span class="color-blue">Socialogy</span> Powerful features
+            </h3>
+        </div>
+        <div class="header-right-shape-2 col-2 col-sm-3 col-md-4"></div>
+    </div>
+    <div class="guide-panel-parent d-flex flex-row">
+        <div class="container mt-5">
+            <div class="guide-panel d-flex flex-column justify-content-start align-items-center flex-wrap h-100 mb-5">
+                <div class="guide-panel-btns col-7 col-md-12 col-sm-11 col-11 d-flex flex-row justify-content-around flex-wrap gap-md-3 box">
+                    <div class="cursor-pointer col-4 col-md d-flex flex-column align-items-center justify-content-center guide-btn-active font-guide-icon text-center">
+                        <img src="img/date.webp" class="col-lg-4 col-md-7 col-sm-6 col-5" alt="#">
+                        <span>Scheduled publication </span>
+                    </div>
+                    <div class="cursor-pointer col-4 col-sm-4 col-md d-flex flex-column align-items-center justify-content-center font-guide-icon text-center">
+                        <img src="img/direct.webp" class="col-lg-4 col-md-7 col-sm-6 col-5">
+                        <span>Manage Direct Massages</span>
+                    </div>
+                    <div class="cursor-pointer col-4 col-sm-4 col-md d-flex flex-column align-items-center justify-content-center font-guide-icon text-center">
+                        <img src="img/comment.webp" class="col-lg-4 col-md-7 col-sm-6 col-5">
+                        <span>Manage comments</span>
+                    </div>
+                    <div class="cursor-pointer col-4 col-sm-4 col-md d-flex flex-column align-items-center justify-content-center mt-4 mt-md-0 font-guide-icon text-center">
+                        <img src="img/team.webp" class="col-lg-4 col-md-7 col-sm-6 col-5">
+                        <span>Team management</span>
+                    </div>
+                    <div class="cursor-pointer col-4 col-sm-4 col-md d-flex flex-column align-items-center justify-content-center mt-4 mt-md-0 font-guide-icon text-center">
+                        <img src="img/theme.webp" class="col-lg-4 col-md-7 col-sm-6 col-5">
+                        <span>Use Content themes</span>
+                    </div>
+                    <div class="cursor-pointer col-4 col-sm-4 col-md d-flex flex-column align-items-center justify-content-center mt-4 mt-md-0 font-guide-icon text-center">
+                        <img src="img/download.webp" class="col-lg-4 col-md-7 col-sm-6 col-5">
+                        <span>Download Content</span>
+                    </div>
+                </div>
+                <div class="guide-panel-items col-12 d-flex flex-column align-items-center mt-5 box">
+                    <img class="rounded rounded-2 mt-3 mb-5" src="img/feartures-1.webp" alt="#">
+                    <img class="rounded rounded-2 mt-3 mb-5" src="img/2.webp" alt="#">
+                    <img class="rounded rounded-2 mt-3 mb-5" src="img/3.webp" alt="#">
+                    <img class="rounded rounded-2 mt-3 mb-5" src="img/4.webp" alt="#">
+                    <img class="rounded rounded-2 mt-3 mb-5" src="img/1.webp" alt="#">
+                    <img class="rounded rounded-2 mt-3 mb-5" src="img/3.webp" alt="#">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end features section-->
+    <!--plans section-->
+    <div class="header-shapes d-flex flex-row justify-content-center" id="Plans">
+        <div class="header-left-shape col-3 col-sm-4 col-md-4 col-lg-4"></div>
+        <div class="header-center-shape col-6 d-flex flex-column align-items-center pb-5">
+            <h3 class="plan-header- mb-5"><span class="color-blue">Socialogy</span> Plans</h3>
+        </div>
+        <div class="header-right-shape col-3 col-sm-4 col-md-4 col-lg-4"></div>
+    </div>
+    <div class="container mt-5 d-flex flex-column align-items-center">
+        <div class="col-md-10 d-flex flex-sm-row flex-column justify-content-sm-around align-items-center gap-3 gap-sm-0">
+            <div class="col-lg-2 col-md-4 d-flex flex-column align-items-center">
+                <h1 class="color-blue text-center box"><span class="counter">5</span>years</h1>
+                <h5 class="text-center box">in business</h5>
+            </div>
+            <div class="col-lg-2 col-md-4 d-flex flex-column align-items-center">
+                <h1 class="color-blue text-center box">6000+</h1>
+                <h5 class="text-center box">Users</h5>
+            </div>
+            <div class="col-lg-2 col-md-4 d-flex flex-column align-items-center">
+                <h1 class="color-blue text-center box">50M+</h1>
+                <h5 class="text-center box">Posts</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-100 mt-60 mb-5">
+        <div class="row align-items-md-end align-items-center justify-content-center">
+            <div class="row align-items-md-end align-items-center justify-content-center">
+                <div class="col-lg col-md-6 col-11 mt-4 pt-2 box">
+                    <!--first plan-->
+                    <div class="pricing text-center rounded overflow-hidden">
+                        <div class="price-header border-bottom pt-5 pb-5">
+                            <h1 class="color-blue"><i class="fa fa-lightbulb"></i></h1>
+                            <h5 class="price-title">Starter</h5>
+                        </div>
+                        <div class="border-bottom py-4">
+                            <h2 class="fw-bold text-capitalize">free</h2>
+                            <h6 class="text-muted mb-0 fw-normal">Monthly per user</h6>
+                            <a href="javascript:void(0)" class="btn btn-primary mt-4 text-capitalize">start free</a>
+                        </div>
+                        <div class="pricing-features text-start p-4">
+                            <h5>Features of this plan :</h5>
+                            <ul class="feature list-unstyled mb-0">
+                                <li class="text-muted">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Full Access
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Enhanced Security
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Source Files
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    1 Domain Free
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Free Appointments
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Free Installment
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end first plan-->
+                <!--second plan-->
+                <div class="col-lg col-md-6 col-11 mt-4 pt-2 box">
+                    <div class="pricing text-center rounded overflow-hidden">
+                        <div class="price-header border-bottom pt-5 pb-5">
+                            <h1 class="color-blue"><i class="fa fa-suitcase"></i></h1>
+                            <h5 class="price-title">Standard</h5>
+                            <p class="mb-0 text-muted"></p>
+                        </div>
+                        <div class="border-bottom py-4">
+                            <h2 class="fw-bold text-capitalize">$ 9.00</h2>
+                            <h6 class="text-muted mb-0 fw-normal">Monthly per user</h6>
+                            <a href="javascript:void(0)" class="btn btn-primary mt-4 text-capitalize">start Standard</a>
+                        </div>
+                        <div class="pricing-features text-start p-4">
+                            <h5>Features of this plan :</h5>
+                            <ul class="feature list-unstyled mb-0">
+                                <li class="text-muted">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Full Access
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Enhanced Security
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Source Files
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    1 Domain Free
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Free Appointments
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Free Installment
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end second plan-->
+                <!--third plan-->
+                <div class="col-lg col-md-6 col-11 mt-4 pt-2 box">
+                    <div class="pricing text-center rounded overflow-hidden pro">
+                        <div class="price-header border-bottom bg-blue pt-5 pb-5">
+                            <h1 class="text-white-50"><i class="fa fa-medal"></i></h1>
+                            <h5 class="price-title text-white">Pro</h5>
+                            <p class="mb-0 text-light">Socialogy suggestion for starters</p>
+                        </div>
+                        <div class="border-bottom py-4">
+                            <h2 class="fw-bold">$ 29.00</h2>
+                            <h6 class="text-muted mb-0 fw-normal">Monthly per user</h6>
+                            <a href="javascript:void(0)" class="btn btn-primary mt-4 text-capitalize">start pro</a>
+                        </div>
+                        <div class="pricing-features text-start p-4">
+                            <h5>Features of this plan :</h5>
+                            <ul class="feature list-unstyled mb-0">
+                                <li class="text-muted">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Full Access
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Enhanced Security
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Source Files
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    1 Domain Free
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Free Appointments
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Free Installment
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end third plan-->
+                <!--fourth plan-->
+                <div class="col-lg col-md-6 col-11 mt-4 pt-2 box">
+                    <div class="pricing text-center rounded overflow-hidden">
+                        <div class="price-header border-bottom pt-5 pb-5">
+                            <h1 class="color-blue"><i class="fa fa-star"></i></h1>
+                            <h5 class="price-title">Premium</h5>
+                            <p class="mb-0 text-muted"></p>
+                        </div>
+                        <div class="border-bottom py-4">
+                            <h2 class="fw-bold text-capitalize">$ 49.00</h2>
+                            <h6 class="text-muted mb-0 fw-normal">Monthly per user</h6>
+                            <a href="javascript:void(0)" class="btn btn-primary mt-4 text-capitalize">start Premium</a>
+                        </div>
+                        <div class="pricing-features text-start p-4">
+                            <h5>Features of this plan :</h5>
+                            <ul class="feature list-unstyled mb-0">
+                                <li class="text-muted">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Full Access
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Enhanced Security
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Source Files
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    1 Domain Free
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Free Appointments
+                                </li>
+                                <li class="text-muted mt-2">
+                                    <i class="fea fa fa-arrow-right icon-sm text-secondary me-2"></i>
+                                    Free Installment
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end fourth plan-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </div>
+    <!--    end plans-->
+    <div class="social-members-parent d-flex flex-row flex-wrap">
+        <div class="col-12 d-flex flex-row justify-content-center mt-5">
+            <h3 class=" text-center">Socialogy For <span class="color-blue">All</span></h3>
+        </div>
+        <div class="container-lg mt-5">
+            <div class="d-flex flex-row flex-wrap justify-content-around align-items-center mb-5">
+                <div class="social-members-item my-col bg-white d-flex flex-column align-items-center mt-5 box">
+                    <div class="social-member-icon rounded-circle">
+                        <img class="img-fluid" src="img/9363965.webp">
+                    </div>
+                    <div class="px-4 mt-4 col-12 d-flex flex-column align-items-center">
+                        <h4 class="social mt-5 color-blue">startups</h4>
+                        <p class="text-center text-justify">Scale your startup and increase awareness using this social
+                            media management tool. Schedule in
+                            bulk, track results, and converse with your audience easily!</p>
+                    </div>
+                </div>
+                <div class="social-members-item my-col bg-white d-flex flex-column align-items-center mt-5 box">
+                    <div class="social-member-icon rounded-circle">
+                        <img class="img-fluid" src="img/Agencies.webp">
+                    </div>
+                    <div class="px-4 mt-4 col-12 d-flex flex-column align-items-center">
+                        <h4 class="social mt-5 color-blue">Agencies</h4>
+                        <p class="text-center text-justify">Streamline workflows at your agency using our social media
+                            management software and its robust agency-centric features, such as Workspaces, bulk upload,
+                            teams, and more!</p>
+                    </div>
+                </div>
+                <div class="social-members-item my-col bg-white d-flex flex-column align-items-center mt-5 box">
+                    <div class="social-member-icon rounded-circle">
+                        <img class="img-fluid" src="img/marketer.webp">
+                    </div>
+                    <div class="px-4 mt-4 col-12 d-flex flex-column align-items-center">
+                        <h4 class="social mt-5 color-blue">SMBs</h4>
+                        <p class="text-center text-justify">Customer relations are crucial for the success of small &
+                            medium-sized businesses. Reply to messages, ad comments, organic post comments, and reviews
+                            with
+                            our social inbox.</p>
+                    </div>
+                </div>
+                <div class="social-members-item my-col bg-white d-flex flex-column align-items-center mt-5 box">
+                    <div class="social-member-icon rounded-circle">
+                        <img class="img-fluid" src="img/Entrepreneurs.webp">
+                    </div>
+                    <div class="px-4 mt-4 col-12 d-flex flex-column align-items-center">
+                        <h4 class="social mt-5 color-blue">Entrepreneurs</h4>
+                        <p class="text-center text-justify">Save time and effort by tracking best performing posts on
+                            social
+                            profiles and compare weekly or monthly progress in graphical form.</p>
+                    </div>
+                </div>
+                <div class="social-members-item my-col bg-white d-flex flex-column align-items-center mt-5 box">
+                    <div class="social-member-icon rounded-circle">
+                        <img class="img-fluid" src="img/influencer.webp">
+                    </div>
+                    <div class="px-4 mt-4 col-12 d-flex flex-column align-items-center">
+                        <h4 class="social mt-5 color-blue">Influencers</h4>
+                        <p class="text-center text-justify">From creating and planning content to streamline engagement
+                            with
+                            audience, Socialogy helps become a star on social media and manage efficiently!</p>
+                    </div>
+                </div>
+                <div class="social-members-item my-col bg-white  d-flex flex-column align-items-center mt-5 box">
+                    <div class="social-member-icon rounded-circle">
+                        <img class="img-fluid" src="img/market.webp">
+                    </div>
+                    <div class="px-4 mt-4 col-12 d-flex flex-column align-items-center">
+                        <h4 class="social mt-5 color-blue">Marketers</h4>
+                        <p class="text-center text-justify">Never let any content waste with this social media
+                            management
+                            tool. Use Repeat & Recycle features, create campaigns, collect feedback, and do much
+                            more!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-shapes d-flex flex-row justify-content-center">
+        <div class="footer-brand  col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-column align-items-center">
+            <img class="footer-brand-img" src="img/logowhite.webp">
+        </div>
+        <div class="left-shape col-3 col-sm-4 col-md-4 col-lg-5"></div>
+        <div class="center-shape col-6 col-sm-4 col-md-4 col-lg-2"></div>
+        <div class="right-shape col-3 col-sm-4 col-md-4 col-lg-5"></div>
+    </div>
+    <!--    footer-->
+    <footer class="d-flex flex-column" id="footer">
+        <div class="footer d-flex flex-row">
+            <div class="container d-flex flex-row flex-wrap justify-content-around gap-3 mt-1 mb-5">
+                <div class="col-lg col-md-3 col-12 d-flex flex-column align-items-center mt-5">
+                    <div class="mt-4 col-12 d-flex flex-column">
+                        <div class="d-flex flex-row">
+                            <div class="title-parent w-100">
+                                <h5 class="main-title- text-capitalize header-title my-3 ">
+                                    social media
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center justify-content-sm-start flex-wrap gap-4 mt-4 ms-4">
+                            <i class="footer-fab fab fa-telegram text-light"></i>
+                            <i class="footer-fab fab fa-instagram text-light"></i>
+                            <i class="footer-fab fab fa-twitter text-light"></i>
+                            <i class="footer-fab fab fa-linkedin text-light"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md col-12 d-flex flex-column mt-md-5 mt-3">
+                    <div class="px-xl-5 px-lg-3 px-md-0 mt-md-4 col-12 d-flex flex-column">
+                        <div class="d-flex flex-row">
+                            <div class="title-parent w-100">
+                                <h5 class="main-title- text-capitalize header-title my-md-3 ">
+                                    about app
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-4 align-items-center justify-content-center justify-content-sm-start mt-4 ms-">
+                            <ul class="list-unstyled">
+                                <li class="footer-text">
+                                    <a class="text-decoration-none text-light" href="index.html">
+                                        <i class="fa fa-caret-right"></i> Home
+                                    </a>
+                                </li>
+                                <li class="footer-text">
+                                    <a class="text-decoration-none text-light" href="#description-slider">
+                                        <i class="fa fa-caret-right"></i> Introduce
+                                    </a>
+                                </li>
+                                <li class="footer-text">
+                                    <a class="text-decoration-none text-light" href="#Features">
+                                        <i class="fa fa-caret-right"></i> Features
+                                    </a>
+                                </li>
+                                <li class="footer-text">
+                                    <a class="text-decoration-none text-light" href="#Plans">
+                                        <i class="fa fa-caret-right"></i> Plans
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md col-12 d-flex flex-column align-items-center mt-md-5">
+                    <div class="px-xl-5 px-lg-3 px-md-0 mt-md-4 col-12 d-flex flex-column">
+                        <div class="d-flex flex-row">
+                            <div class="title-parent w-100">
+                                <h5 class="main-title- text-capitalize header-title my-md-3 ">
+                                    Privacy
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-4 justify-content-center justify-content-sm-start ms-2 mt-4">
+                            <ul class="list-unstyled">
+                                <li class="footer-text">
+                                    <a class="text-decoration-none text-light" href="terms.html">
+                                        <i class="fa fa-caret-right"></i> terms and conditions
+                                    </a>
+                                </li>
+                                <li class="footer-text">
+                                    <a class="text-decoration-none text-light" href="privacy.html">
+                                        <i class="fa fa-caret-right"></i> privacy policy
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md col-12 d-flex flex-column align-items-center mt-md-5">
+                    <div class="px-xl-5 px-lg-3 px-md-0 mt-md-4 col-12 d-flex flex-column">
+                        <div class="d-flex flex-row">
+                            <div class="title-parent w-100">
+                                <h5 class="main-title- text-capitalize header-title my-md-3 ">
+                                    Contact us
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-4 justify-content-center justify-content-sm-start ms-2 mt-4">
+                            <ul class="list-unstyled">
+                                <li class="footer-text">
+                                    <a class="text-decoration-none text-light">
+                                        <i class="fa fa-caret-right"></i> email: info@socialogy.net
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright-parent d-flex flex-row justify-content-center col-12 py-2">
+            <div class="footer-copyright col-12 d-flex flex-row justify-content-center align-items-center">
+                <p class="mt-2 text-light text-center">© 2022 Socialogy. All Rights Reserved | Powered by
+                    Deltagroup</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script rel="script" src="js/socialogy.min.js"></script>
+<script rel="script">$(document).ready(function($){const boxes=document.querySelectorAll(".box");const checkBoxes=()=>{const triggerBottom=(window.innerHeight/6)*5;boxes.forEach((box)=>{const boxTop=box.getBoundingClientRect().top;if(boxTop<triggerBottom)box.classList.add("show");else box.classList.remove("show")})};window.addEventListener("scroll",checkBoxes);checkBoxes();$(document).ready(function($){$(".navigation-menu-").hide();$(".my-dropdown-item").hide();$(".nav-item-3-sm").click(function(){$(".menu-3-sm").slideToggle(200);$(".menu-1-sm").slideUp(200);$(".menu-2-sm").slideUp(200);$(".menu-4-sm").slideUp(200)});$(".menu-icon").click(function(){$(this).toggleClass("active");$(".navigation-menu").toggleClass("active");$(".menu-icon i").toggleClass("fa-times");$(".menu-2-sm").hide(200);$(".menu-1-sm").hide(200);$(".menu-3-sm").hide(200);$(".navigation-menu-").toggle(300)})});jQuery(window).on("load",function(){jQuery(".loader").fadeOut(500)})})</script>
+</body>
+</html>
